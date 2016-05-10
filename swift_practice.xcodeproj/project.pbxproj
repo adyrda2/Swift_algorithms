@@ -12,8 +12,10 @@
 		7A2038341CE25FD1001065DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2038321CE25FD1001065DB /* Main.storyboard */; };
 		7A2038361CE25FD1001065DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A2038351CE25FD1001065DB /* Assets.xcassets */; };
 		7A2038391CE25FD1001065DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A2038371CE25FD1001065DB /* LaunchScreen.storyboard */; };
-		7A2038441CE25FD1001065DB /* swift_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2038431CE25FD1001065DB /* swift_practiceTests.swift */; };
 		7A20384F1CE25FD1001065DB /* swift_practiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20384E1CE25FD1001065DB /* swift_practiceUITests.swift */; };
+		7A20385E1CE26001001065DB /* average.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20385D1CE26001001065DB /* average.swift */; };
+		7A2038601CE26031001065DB /* swift_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2038431CE25FD1001065DB /* swift_practiceTests.swift */; };
+		7A2038611CE26038001065DB /* average.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20385D1CE26001001065DB /* average.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		7A20384A1CE25FD1001065DB /* swift_practiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swift_practiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A20384E1CE25FD1001065DB /* swift_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_practiceUITests.swift; sourceTree = "<group>"; };
 		7A2038501CE25FD1001065DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A20385D1CE26001001065DB /* average.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = average.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,7 @@
 		7A20382D1CE25FD1001065DB /* swift_practice */ = {
 			isa = PBXGroup;
 			children = (
+				7A20385C1CE25FD7001065DB /* Model */,
 				7A20382E1CE25FD1001065DB /* AppDelegate.swift */,
 				7A2038301CE25FD1001065DB /* ViewController.swift */,
 				7A2038321CE25FD1001065DB /* Main.storyboard */,
@@ -123,6 +127,14 @@
 				7A2038501CE25FD1001065DB /* Info.plist */,
 			);
 			path = swift_practiceUITests;
+			sourceTree = "<group>";
+		};
+		7A20385C1CE25FD7001065DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7A20385D1CE26001001065DB /* average.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +270,7 @@
 			files = (
 				7A2038311CE25FD1001065DB /* ViewController.swift in Sources */,
 				7A20382F1CE25FD1001065DB /* AppDelegate.swift in Sources */,
+				7A20385E1CE26001001065DB /* average.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A2038441CE25FD1001065DB /* swift_practiceTests.swift in Sources */,
+				7A2038601CE26031001065DB /* swift_practiceTests.swift in Sources */,
+				7A2038611CE26038001065DB /* average.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
