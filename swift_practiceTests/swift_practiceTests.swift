@@ -8,4 +8,14 @@ class averageOfTests: XCTestCase {
     
     XCTAssertEqual(expected, result)
   }
+  
+  func testFibonacci() {
+    let index = 6
+    let expected = [0,1,1,2,3,5,8]
+    let result = fibonacci(index)
+    
+    XCTAssertEqual(expected, result)
+  }
 }
+
+

@@ -16,6 +16,8 @@
 		7A20385E1CE26001001065DB /* average.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20385D1CE26001001065DB /* average.swift */; };
 		7A2038601CE26031001065DB /* swift_practiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2038431CE25FD1001065DB /* swift_practiceTests.swift */; };
 		7A2038611CE26038001065DB /* average.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A20385D1CE26001001065DB /* average.swift */; };
+		7A2038631CE26176001065DB /* fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2038621CE26176001065DB /* fibonacci.swift */; };
+		7A7A6F161CE38E8F00B6A158 /* fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A2038621CE26176001065DB /* fibonacci.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		7A20384E1CE25FD1001065DB /* swift_practiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_practiceUITests.swift; sourceTree = "<group>"; };
 		7A2038501CE25FD1001065DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A20385D1CE26001001065DB /* average.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = average.swift; sourceTree = "<group>"; };
+		7A2038621CE26176001065DB /* fibonacci.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fibonacci.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				7A20385D1CE26001001065DB /* average.swift */,
+				7A2038621CE26176001065DB /* fibonacci.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -270,6 +274,7 @@
 			files = (
 				7A2038311CE25FD1001065DB /* ViewController.swift in Sources */,
 				7A20382F1CE25FD1001065DB /* AppDelegate.swift in Sources */,
+				7A2038631CE26176001065DB /* fibonacci.swift in Sources */,
 				7A20385E1CE26001001065DB /* average.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A7A6F161CE38E8F00B6A158 /* fibonacci.swift in Sources */,
 				7A2038601CE26031001065DB /* swift_practiceTests.swift in Sources */,
 				7A2038611CE26038001065DB /* average.swift in Sources */,
 			);
@@ -496,6 +502,7 @@
 				7A2038551CE25FD1001065DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A2038561CE25FD1001065DB /* Build configuration list for PBXNativeTarget "swift_practiceTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				7A2038581CE25FD1001065DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A2038591CE25FD1001065DB /* Build configuration list for PBXNativeTarget "swift_practiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				7A20385B1CE25FD1001065DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
